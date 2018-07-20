@@ -1,0 +1,39 @@
+body {
+  font-family: monospace;
+  font-weight: "bold";
+  background-color: white;
+  color: black;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  word-break: keep-all;
+}
+#controls {
+  text-align: left;
+  text-overflow: hidden;
+  overflow: hidden;
+  float: left;
+  width: 150px;
+  position: fixed;
+  display: block;
+  background-color: white;
+}
+#image {
+  margin-left: 155px;
+  word-break: keep-all;
+  white-space:nowrap;
+  font-size: 8px;
+}
+#imageUpload {
+  overflow: hidden;
+  text-overflow: hidden;
+}
+#url {
+  margin-left: 155px;
+  word-break: break-all;
+}
+pre {
+  font-family: monospace;
+  margin: 0;
+  padding: 0;
+}

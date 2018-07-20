@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>ASCII Converter Full charset</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <p></p>
+<div id="controls">
+  <input type="file" id="imageUpload"></input></br>
+Use full charset: <input id="fullCharset" type="checkbox" onclick="redraw()"></input></br>
+IBM Mode: <input id="ibmMode" type="checkbox" onclick="redraw()"/></br>
+Brightness: </br><input id="brightness" oninput="redraw()" type="range" min="-255" max="255" step="1" value="0"/></br>
+Columns: </br><input id="columns" oninput="redraw()" type="range" min="25" max="600" step="1" value="80"/></br>
+fontSize: </br><input id="fontSize" oninput="redraw()" type="range" value="14" min="2" max="14"/></br>
+<p>Share your art by generating a URL: </p>
+<button type="button" onclick="submit()">Generate link</button>
+
+
+<script  src="js/index.js"></script>
+<script src="js/submit.js"></script>
+
+
+
+
+</body>
+
+</html>
